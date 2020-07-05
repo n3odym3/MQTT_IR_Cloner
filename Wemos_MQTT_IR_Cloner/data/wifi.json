@@ -1,0 +1,8 @@
+{
+"SSID" : "SSID",
+"Pass" : "PASSWORD",
+"MQTT_Server" : "MQTT Broker IP",
+"Topic_READ" : "IR/1/READ",
+"Topic_CMD" : "IR/1/CMD",
+"HostName" : "IR_CLONER_01"
+}

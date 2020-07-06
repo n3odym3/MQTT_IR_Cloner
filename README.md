@@ -9,7 +9,7 @@ This module allows to decode and replicate IR remotes while being remotely contr
 - IR LED
 - IR Receiver
 - 2N2222 Transistor
-- 100Ohm resitor 
+- 100Ohm and 4.7kOhm resitors
 - 2x 10x3mm neodymium magnets
 
 ## Wiring

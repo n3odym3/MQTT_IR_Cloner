@@ -1,4 +1,4 @@
-# Water turret
+# IR Cloner
 
 <img src="https://github.com/n3odym3/MQTT_IR_Cloner/blob/master/Img/Module.JPG" width="80%">
 

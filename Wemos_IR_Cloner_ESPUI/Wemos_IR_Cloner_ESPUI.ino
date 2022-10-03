@@ -1,7 +1,15 @@
 //Web server=======================
+#ifdef ESP8266
+#include <ESP8266WiFi.h>
+#elif defined ESP32
+#include <WiFi.h>
+#define LED_BUILTIN 2
+#else
+#error Architecture unrecognized by this code.
+#endif
+
 #include <Preferences.h>
 Preferences preferences;
-#include <ESP8266WiFi.h>
 #include <DNSServer.h>
 const byte DNS_PORT = 53;
 IPAddress apIP(192, 168, 4, 1);
@@ -48,7 +56,6 @@ const uint16_t kFrequency = 38000;
 void setup() {
   Serial.begin(115200);
   Serial.println();
-  pinMode(LED_BUILTIN, OUTPUT);
 
   //IR----------------------------
   irrecv.setUnknownThreshold(12);

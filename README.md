@@ -50,3 +50,5 @@ You can send an IR command using :
 - [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
 - [ESPUI](https://github.com/s00500/ESPUI)
 - [PubSubClient.h](https://github.com/knolleary/pubsubclient)
+- [Preferences](https://github.com/vshymanskyy/Preferences)
+
